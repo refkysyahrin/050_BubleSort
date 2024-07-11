@@ -26,5 +26,6 @@ void input() {   // procedur untuk input
 }
 
 void BubbleShortArray() { // procedur untuk mengurutkan array dengan metode bubble sort
+    int pass = 1; // step 1
 
-}
+	
