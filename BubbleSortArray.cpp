@@ -39,4 +39,12 @@ void BubbleShortArray() { // procedur untuk mengurutkan array dengan metode bubb
 		}
 		pass = pass + 1; //step 4
 
-		
+		cout << "\nPass " << pass - 1 << -1 << "; ";   //output ke layar
+		for (int k = 0; k < n; k++) {             //looping nilai k dimulai dari 0 hingga n-1
+			cout << arr[k] << " ";                //output ke layar
+
+		}
+		cout << endl;
+	} while (pass <= n - 1);
+}
+
